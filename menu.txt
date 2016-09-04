@@ -1,0 +1,26 @@
+A) What is menu ?write it's importance?
+
+Ans.
+ Menus are the additional options that are displayed by clicking menu button of 
+mobile.it display those options that are not directly visible on the main UI of an 
+application.It is used to save UI space of an Activity.
+
+
+B)What is option menu?
+
+Ans.They are different types of menus associated and variants are there,Options menu is one of them.
+Options menu are the menus that are activated by clicking the menu key.
+
+
+C) What is context menu?When it is activated?
+
+Ans.Context menus are a special types of menus that are Activated by TAp or hold on a particular button.It can be seen same as the third click or the right click on the computer. 
+
+
+D) What is the alternative of ActionBarActivity as its deprecated?
+
+Ans. Since the version 22.1.0, the class ActionBarActivity is deprecated.  Its deprecation is just a hint for us asking to use new AppCompatActivity directly instead. AppCompatActivity is a new, more generic implementation which uses AppCompatDelegate class internally.
+If we start a new development, then we should rather use new AppCompatActivity class right away. If we have a chance to update your app, then replace deprecated ActionBarActivity by the new activity as well. Otherwise we can stay with deprecated activity and there will be no difference in behavior at all.
+Regarding AppCompatDelegate, it allows us to have new tinted widgets in an activity, which is neither AppCompatActivity nor ActionBarActivity.
+
+
